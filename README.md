@@ -40,4 +40,4 @@ This project is licensed under the MIT license
 
 ## Links
 Github Repo: https://github.com/beth-em/Test-Quiz.git
-Walkthrough Video Link:
+Walkthrough Video Link: https://drive.google.com/file/d/15t6dxhL1FgXKo1tptO18CG-IKg-caL-p/view?usp=sharing
