@@ -12,7 +12,7 @@ describe('Tech Quiz App - E2E', () => {
   });
 
   it('answers 10 questions and shows the final score', () => {
-    cy.contains('[data-testid="start-button"]').click();
+    cy.get('[data-testid="start-button"]').click();
 
     // Answer each questions
     for (let i = 0; i < 10; i++) {
