@@ -1,6 +1,12 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
     "composite": true /* Enable project references. */,
     /* Modules */
     "rootDir": "src" /* Specify the root folder within your source files. */,

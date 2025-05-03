@@ -1,5 +1,18 @@
-{
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
-}
+[
+  {
+    "question": "what does HTML stand for?",
+    "answers": [
+      { "text": "Hypertest Markup Language", "isCorrect": true },
+      { "text": "Hotmail", "isCorrect": false },
+      { "text": "Hyper Tool Markup Language", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is React?",
+    "answers": [
+      { "text": "A CSS framwork", "isCorrect": false },
+      { "text": "A JavaScript library for building UI", "isCorrect": true },
+      { "text": "A database system", "isCorrect": false }
+    ]
+  }
+]

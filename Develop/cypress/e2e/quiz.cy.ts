@@ -2,7 +2,7 @@ describe('Tech Quiz App - E2E', () => {
   // Add 'beforeEach' to run before each test
   beforeEach(() => {
     // Visit app's local URL
-    cy.visit('http://localhost:3000');
+    cy.visit('http://localhost:3001');
   });
 
   // Function to click the Start Quiz button and Check that a question is displayed

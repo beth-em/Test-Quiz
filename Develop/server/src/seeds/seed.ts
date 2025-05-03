@@ -1,8 +1,11 @@
 import db from '../config/connection.js';
 import { Question } from '../models/index.js'
 import cleanDB from './cleanDb.js';
+import { readFile } from 'fs/promises';
 
-import questionData from './pythonQuestions.json' assert{ type: 'json'};
+// Load JSON file manually
+const data = await readFile(new URL('./pythonQuestions.json', import.meta.url));
+const questionData = JSON.parse(data.toString());
 
 try {
   await db();
